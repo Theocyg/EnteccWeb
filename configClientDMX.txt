@@ -1,0 +1,15 @@
+IPEnttec	172.20.21.183
+PortEnttec	6454
+UniversEnttec	0
+IPDMXHF		172.20.100.36
+PortDMXHF	4123
+IPWifi		192.168.4.1
+PortWifi	10100
+CanalDepart	1
+modeEnttec	0
+modeDMXHF	0
+modeWifi	1
+tempo(ms)	1000
+fichierTest	test.txt
+PortHTTP	8181	//0 pour désactiver HTTP
+Minimiser	1	//0 grande taille

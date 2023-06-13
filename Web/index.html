@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Console DMX</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+		<h3 style="text-align:center;">Console DMX 6 canaux</h3>
+		<p></p>
+		<div>
+		</div>		
+		<p style="text-align:center;display: none;">
+			<input id="edit" type="text" style="width:200px;text-align:center; " value="000000000000"/>
+		</p>
+			<div class="lesScroll">
+				<p style="text-align:center;">
+					<input onchange="Ecrire()" id="scroll1" type="range" max="255" min="0" value="0" style="-webkit-appearance: slider-vertical;"/>
+				</p>
+			</div>
+		<p style="text-align:center;">
+			<input type="button" name="FullON" value="FullON" onclick="fullON()">
+		</p>
+		<div id="bouton">
+			<p style="text-align:center;display: none;">
+			<button  style="width:122px;" onclick="Ecrire()">Envoyer</button>
+			</p>
+		<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

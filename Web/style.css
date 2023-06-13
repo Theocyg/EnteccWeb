@@ -1,0 +1,13 @@
+body 
+{	background-color:#E0E0E0;
+	font: 15px Verdana, sans-serif;
+	margin:20px;
+	
+}
+.lesScroll{
+	display:flex; flex-direction:row;
+	justify-content: center;
+    align-items: center;
+	margin-bottom:20px;
+}
+
