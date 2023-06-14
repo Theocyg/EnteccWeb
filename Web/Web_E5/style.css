@@ -1,0 +1,33 @@
+body {
+	background-color: #E0E0E0;
+	font: 15px Verdana, sans-serif;
+	margin: 20px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 300px;
+}
+
+.center{
+	text-align: center;
+}
+
+.scrollContainer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.lesScroll {
+	margin-right: 10px;
+}
+
+input[type="range"] {
+	-webkit-appearance: slider-vertical;
+}
+
+input[type="button"] {
+	width: 122px;
+}

@@ -1,0 +1,47 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Console DMX</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<img src="image.png" alt="Flash out">
+	<h3 class="center">Console DMX 6 canaux</h3>
+	<p></p>
+	<div class="scrollContainer">
+		<div class="lesScroll">
+			<input onchange="Ecrire()" id="scroll1" type="range" max="255" min="0" value="0" />
+		</div>
+		<div class="lesScroll">
+			<input onchange="Ecrire()" id="scroll2" type="range" max="255" min="0" value="0" />
+		</div>
+		<div class="lesScroll">
+			<input onchange="Ecrire()" id="scroll3" type="range" max="255" min="0" value="0" />
+		</div>
+		<div class="lesScroll">
+			<input onchange="Ecrire()" id="scroll4" type="range" max="255" min="0" value="0" />
+		</div>
+		<div class="lesScroll">
+			<input onchange="Ecrire()" id="scroll5" type="range" max="255" min="0" value="0" />
+		</div>
+		<div class="lesScroll">
+			<input onchange="Ecrire()" id="scroll6" type="range" max="255" min="0" value="0" />
+		</div>
+	</div>
+	<p class="center">
+		<input type="button" name="FullON" value="FullON" onclick="fullON()">
+		<input type="button" name="FullON" value="FullOFF" onclick="fullOFF()">
+		<input id="bouton"type="button" name="Envoyer" value="Envoyer" onclick="Ecrire()">
+		<input type="text" id="edit" placeholder="Entrez une valeur">
+		<input type="text" id="edit" readonly>
+
+
+
+	</p>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+<!-- J'ai enlevé toutes les balises style et mis tout dans le css + j'ai ajouté tous les scroll avec leurs bons numéro + j'ai 
+supprimé la div en trop et j'ai remplacer le bouton envoyer et l'ai mis a coté du bouton fullOFF -->
+</html>
